@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --full-contrast: white;
+  --default-grey: #747474;
+  --hot-pink: color-mix(
+    in srgb,
+    oklch(59.91% 0.239 8.14),
+    var(--full-contrast, white) 70%
+  );
+  --hot-red: color-mix(
+    in srgb,
+    oklch(34.42% 0.238 15.34),
+    var(--full-contrast, white) 8%
+  );
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #242424;
+}
+
+section {
+  max-width: 1400px;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+}

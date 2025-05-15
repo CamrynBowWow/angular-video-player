@@ -9,6 +9,8 @@ import { SignInComponent } from './features/auth/pages/sign-in/sign-in.component
 import { SignUpComponent } from './features/auth/pages/sign-up/sign-up.component';
 import { VideoGalleryPageComponent } from './features/video-gallery/pages/video-gallery-page/video-gallery-page.component';
 import { VideoPageComponent } from './features/video-gallery/pages/video-page/video-page.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { HomeComponent } from './features/home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { VideoPageComponent } from './features/video-gallery/pages/video-page/vi
     SignUpComponent,
     VideoGalleryPageComponent,
     VideoPageComponent,
+    HeaderComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

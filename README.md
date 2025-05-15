@@ -21,10 +21,12 @@
 - Created At
 - Updated At
 
-**Admin**:
+**User**:
 
 - Username
 - Password
+- Email
+- UserType
 - Created At
 - Updated At
 
