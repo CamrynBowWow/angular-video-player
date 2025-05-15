@@ -1,16 +1,15 @@
-<!-- TODO: must make a active if on the page -->
 
 <header>
     <div>
         <ul>
             <li>
-                <a class="nav-tag" routerLink="/">Home</a>
+                <a class="nav-tag" routerLink="/" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }">Home</a>
             </li>
             <li>
-                <a class="nav-tag" routerLink="/videos">Video Gallery</a>
+                <a class="nav-tag" routerLink="/videos" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }">Video Gallery</a>
             </li>
             <li>
-                <a class="nav-tag" routerLink="/images">Image Gallery</a>
+                <a class="nav-tag" routerLink="/images" routerLinkActive="active"  [routerLinkActiveOptions]="{ exact: true }">Image Gallery</a>
             </li>
         </ul>
     </div>

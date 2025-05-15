@@ -23,20 +23,24 @@ a {
 }
 
 li {
-  padding: 8px 12px;
-  border-radius: 3px;
-  background-color: var(--default-grey);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
 
-li:hover {
-  background-color: #b3b3b3;
-  scale: 0.95;
-}
-
 .nav-tag {
   color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-tag:hover {
+  color: #b6b6b6;
+}
+
+.active {
+  text-decoration: underline;
+  pointer-events: none;
+  text-underline-offset: 3px;
+  color: #b6b6b6;
 }
 
 .sign-in {
@@ -51,11 +55,15 @@ li:hover {
 
 .sign-in a {
   color: black;
+  transition: all 0.5s linear;
+}
+
+.sign-in a:hover {
+  color: white;
 }
 
 .sign-in:hover {
   background-color: var(--default-grey);
-  color: white;
   outline: solid;
   outline-color: white;
   outline-width: 1px;
