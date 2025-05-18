@@ -29,11 +29,13 @@ li {
 
 .nav-tag {
   color: white;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 8px 10px;
+  border-radius: 4px;
 }
 
 .nav-tag:hover {
-  color: #b6b6b6;
+  background: #939393c9;
 }
 
 .active {
